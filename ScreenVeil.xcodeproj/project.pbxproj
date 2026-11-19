@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1889730B66BD0D60BC76C703 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B7681B9B5B59C2F1279AFA /* App.swift */; };
+		5D3B7F08E5DB9B26DC635EB1 /* LockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE493BCC6F16B48BD845CF60 /* LockController.swift */; };
+		5FC5EE4AB9D3CB79C144735C /* ScreenVeil.icns in Resources */ = {isa = PBXBuildFile; fileRef = 42276704E3AD128B393FE533 /* ScreenVeil.icns */; };
+		92351D16197393C2E4269412 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FAA9E5015A22CA99FE4A3 /* Settings.swift */; };
+		9D980461886F790C7CC2FC4B /* Karabiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704719DC3E95D9BAC1C0FBF7 /* Karabiner.swift */; };
+		F80E22B8C0F0D0F0DF621BA4 /* Shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD89B60C32F541D7504E86 /* Shortcut.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04CD89B60C32F541D7504E86 /* Shortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcut.swift; sourceTree = "<group>"; };
+		13B7681B9B5B59C2F1279AFA /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		42276704E3AD128B393FE533 /* ScreenVeil.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ScreenVeil.icns; sourceTree = "<group>"; };
+		704719DC3E95D9BAC1C0FBF7 /* Karabiner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karabiner.swift; sourceTree = "<group>"; };
+		AB215967F0B4377FE93AEE7A /* ScreenVeil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenVeil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE493BCC6F16B48BD845CF60 /* LockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockController.swift; sourceTree = "<group>"; };
+		CD2FAA9E5015A22CA99FE4A3 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		672B1362EA11E34B079CD840 = {
+			isa = PBXGroup;
+			children = (
+				F8DA5D9CDD8266C6C4A8C47F /* Resources */,
+				E3EAD1731B39F1BF5977F722 /* Sources */,
+				C439F1C0A0DE0D5DB9FD2AD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C439F1C0A0DE0D5DB9FD2AD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB215967F0B4377FE93AEE7A /* ScreenVeil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3EAD1731B39F1BF5977F722 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				13B7681B9B5B59C2F1279AFA /* App.swift */,
+				704719DC3E95D9BAC1C0FBF7 /* Karabiner.swift */,
+				AE493BCC6F16B48BD845CF60 /* LockController.swift */,
+				CD2FAA9E5015A22CA99FE4A3 /* Settings.swift */,
+				04CD89B60C32F541D7504E86 /* Shortcut.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F8DA5D9CDD8266C6C4A8C47F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42276704E3AD128B393FE533 /* ScreenVeil.icns */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4FCD391ACB08A28EFD1535C /* ScreenVeil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B1F5E0F7B338BD09F1276F /* Build configuration list for PBXNativeTarget "ScreenVeil" */;
+			buildPhases = (
+				761F14021DFF3723101F02D6 /* Sources */,
+				350DCBAD368A034478520A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenVeil;
+			packageProductDependencies = (
+			);
+			productName = ScreenVeil;
+			productReference = AB215967F0B4377FE93AEE7A /* ScreenVeil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEDB0E9D812C20BB5B2D4678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 000DEB5AFCEA4D50EEF297E1 /* Build configuration list for PBXProject "ScreenVeil" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 672B1362EA11E34B079CD840;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C439F1C0A0DE0D5DB9FD2AD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4FCD391ACB08A28EFD1535C /* ScreenVeil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		350DCBAD368A034478520A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC5EE4AB9D3CB79C144735C /* ScreenVeil.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		761F14021DFF3723101F02D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1889730B66BD0D60BC76C703 /* App.swift in Sources */,
+				9D980461886F790C7CC2FC4B /* Karabiner.swift in Sources */,
+				5D3B7F08E5DB9B26DC635EB1 /* LockController.swift in Sources */,
+				92351D16197393C2E4269412 /* Settings.swift in Sources */,
+				F80E22B8C0F0D0F0DF621BA4 /* Shortcut.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		15F192FD06B2DCC70E082AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.er1cg1ao.screenveil;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3D5C31D1ECE25D6102B82C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.er1cg1ao.screenveil;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D2C95D6CACEB79B06C6E51E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D2DB1B2E5E42A5232B1AC945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000DEB5AFCEA4D50EEF297E1 /* Build configuration list for PBXProject "ScreenVeil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DB1B2E5E42A5232B1AC945 /* Debug */,
+				D2C95D6CACEB79B06C6E51E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		53B1F5E0F7B338BD09F1276F /* Build configuration list for PBXNativeTarget "ScreenVeil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F192FD06B2DCC70E082AD2 /* Debug */,
+				3D5C31D1ECE25D6102B82C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEDB0E9D812C20BB5B2D4678 /* Project object */;
+}

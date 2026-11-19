@@ -1,0 +1,30 @@
+name: ScreenVeil
+options:
+  deploymentTarget:
+    macOS: "14.0"
+targets:
+  ScreenVeil:
+    type: application
+    platform: macOS
+    sources:
+      - Sources
+      - path: Resources
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.er1cg1ao.screenveil
+        INFOPLIST_FILE: Info.plist
+        CODE_SIGN_IDENTITY: "-"
+        SWIFT_VERSION: "5.0"
+        ENABLE_HARDENED_RUNTIME: YES
+        ENABLE_APP_SANDBOX: NO
+      configs:
+        Release:
+          CONFIGURATION_BUILD_DIR: "$(PROJECT_DIR)/build/$(CONFIGURATION)"
+schemes:
+  ScreenVeil:
+    run:
+      config: Release
+    build:
+      targets:
+        ScreenVeil: all
